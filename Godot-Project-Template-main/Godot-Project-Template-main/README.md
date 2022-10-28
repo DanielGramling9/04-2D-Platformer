@@ -1,7 +1,7 @@
-# Project Name
+# 04-2D-Platformer
 
 Context and date
-
+An 2D Platformer
 Description
 
 ## Implementation
@@ -12,4 +12,4 @@ Which features you included
 ## Future Development
 
 ## Created by
-Jason Francis
+Daniel Gramling
