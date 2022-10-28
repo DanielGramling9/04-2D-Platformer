@@ -7,9 +7,12 @@ Description: An 2D Platformer following an old victorian Skeleton obessed with P
 
 ## Implementation
 Which features you included
+* An main menu using an combintion of orginal assets as well as Fonts found online.
+* Orginal character sprite created using Piskel.
 
 ## References
 https://www.dafont.com/theme.php?cat=803
+https://www.piskelapp.com/
 
 
 ## Future Development
