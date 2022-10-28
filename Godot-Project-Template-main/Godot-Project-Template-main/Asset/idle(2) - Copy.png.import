@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/idle(2) - Copy.png-845c0d91f8595ab80aaba2c788055b02.stex"
+path="res://.import/idle(2) - Copy.png-ebce9c112ec986be394e3fb50ea36cdd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://idle(2) - Copy.png"
-dest_files=[ "res://.import/idle(2) - Copy.png-845c0d91f8595ab80aaba2c788055b02.stex" ]
+source_file="res://Asset/idle(2) - Copy.png"
+dest_files=[ "res://.import/idle(2) - Copy.png-ebce9c112ec986be394e3fb50ea36cdd.stex" ]
 
 [params]
 
