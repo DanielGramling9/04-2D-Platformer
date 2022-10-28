@@ -1,8 +1,9 @@
 # 04-2D-Platformer
 
 Context and date
-An 2D Platformer following an old victorian Skeleton obessed with Pogo Sticks.
-Description
+10/26/2022
+
+Description: An 2D Platformer following an old victorian Skeleton obessed with Pogo Sticks.
 
 ## Implementation
 Which features you included
