@@ -1,4 +1,5 @@
 extends KinematicBody2D
+
 onready var SM = $StateMachine
 
 var velocity = Vector2.ZERO

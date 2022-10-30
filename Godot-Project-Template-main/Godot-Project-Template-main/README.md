@@ -1,25 +1,22 @@
-# 04-2D-Platformer
+# 2D-Platformer-Character
 
-Context and date
-10/26/2022
-
-Description: An 2D Platformer following an old victorian Skeleton obessed with Pogo Sticks.
+A somewhat-generic character (including animations and state machine) appropriate for a 2D platformer built in Godot. Includes test level.
 
 ## Implementation
-Which features you included
-* An main menu using an combintion of orginal assets as well as Fonts found online.
-* Orginal character sprite created using Piskel.
+
+Built using Godot 3.5
 
 ## References
-https://www.dafont.com/theme.php?cat=803
 
-https://www.piskelapp.com/
-
-https://www.gameart2d.com/free-graveyard-platformer-tileset.html
-
-
+The player sprite is adaptated from [MV Platformer Male](https://opengameart.org/content/mv-platformer-male-32x64) by MoikMellah
+The warrior sprite sheet is available from [Clembod at itch.io](https://clembod.itch.io/warrior-free-animation-set)
+The Knight sprite sheets are available from [OcO at itch.io](https://oco.itch.io/medieval-fantasy-character-pack)
+The adventurer sprite sheet is avalable from [rvros at itch.io](https://rvros.itch.io/animated-pixel-hero)
 
 ## Future Development
 
-## Created by
-Daniel Gramling
+None
+
+## Created by 
+
+Jason Francis

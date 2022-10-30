@@ -28,4 +28,3 @@ func physics_process(_delta):
 	else:
 		player.velocity = Vector2.ZERO
 		SM.set_state("Idle")
-
