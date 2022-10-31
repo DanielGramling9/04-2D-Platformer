@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Assets/Tile/Tile (1).png" type="Texture" id=1]
 [ext_resource path="res://Enemy/Enemy_Ground.tscn" type="PackedScene" id=2]
@@ -9,8 +9,8 @@
 [ext_resource path="res://Assets/Objects/TombStone (1).png" type="Texture" id=7]
 [ext_resource path="res://Camera.gd" type="Script" id=8]
 [ext_resource path="res://Player/Player_Container.gd" type="Script" id=9]
-[ext_resource path="res://Assets/character_0025.png" type="Texture" id=10]
-[ext_resource path="res://Enemy/Enemy_Flying.gd" type="Script" id=11]
+[ext_resource path="res://HUD/HUD.gd" type="Script" id=10]
+[ext_resource path="res://Enemy/Enemy_Flying.tscn" type="PackedScene" id=11]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
@@ -184,9 +184,6 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 } ]
 4/z_index = 0
 
-[sub_resource type="RectangleShape2D" id=10]
-extents = Vector2( 16, 13 )
-
 [node name="Game" type="Node2D"]
 
 [node name="Ground" type="TileMap" parent="."]
@@ -223,25 +220,30 @@ script = ExtResource( 8 )
 
 [node name="Enemy_Ground" parent="Enemy_Container" instance=ExtResource( 2 )]
 
-[node name="Enemy_Flying" type="KinematicBody2D" parent="Enemy_Container"]
-position = Vector2( 840, 24 )
-script = ExtResource( 11 )
-
-[node name="Sprite" type="Sprite" parent="Enemy_Container/Enemy_Flying"]
-texture = ExtResource( 10 )
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Enemy_Container/Enemy_Flying"]
-polygon = PoolVector2Array( 12, 4, -0.4, 12, -1.5, 12, -3, 11.2, -3, 10.1, -12, 4.4, -12, -8, 12, -8 )
-
-[node name="Area2D" type="Area2D" parent="Enemy_Container/Enemy_Flying"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_Container/Enemy_Flying/Area2D"]
-position = Vector2( 0, 3 )
-shape = SubResource( 10 )
-
-[node name="RayCast2D" type="RayCast2D" parent="Enemy_Container/Enemy_Flying"]
-enabled = true
+[node name="Enemy_Flying" parent="Enemy_Container" instance=ExtResource( 11 )]
 
 [node name="Coin_Container" type="Node" parent="."]
 
-[connection signal="body_entered" from="Enemy_Container/Enemy_Flying/Area2D" to="Enemy_Container/Enemy_Flying" method="_on_Area2D_body_entered"]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" type="Node" parent="CanvasLayer"]
+script = ExtResource( 10 )
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/HUD"]
+margin_right = 1024.0
+margin_bottom = 20.0
+color = Color( 1, 1, 1, 0 )
+
+[node name="Score" type="Label" parent="CanvasLayer/HUD"]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Lives:"
+align = 2
+
+[node name="Lives" type="Label" parent="CanvasLayer/HUD"]
+margin_left = 512.0
+margin_right = 1024.0
+margin_bottom = 31.0
+text = "Lives"
+align = 2
+valign = 1
