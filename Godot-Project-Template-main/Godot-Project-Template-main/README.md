@@ -9,6 +9,7 @@ Description: An 2D Platformer following an old victorian Skeleton obessed with P
 Which features you included
 * An main menu using an combintion of orginal assets as well as Fonts found online.
 * Orginal character sprite created using Piskel.
+* Coins styled with east-styled-coins
 
 ## References
 
