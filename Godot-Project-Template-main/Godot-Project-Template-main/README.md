@@ -26,7 +26,7 @@ https://luizmelo.itch.io/monsters-creatures-fantasy/download/eyJpZCI6NTY0Njk1LCJ
 
 https://www.kenney.nl/assets/pixel-platformer
 
-
+https://salgueiroazul.itch.io/far-east-styled-coins
 
 ## Future Development
 
