@@ -21,6 +21,8 @@ https://www.piskelapp.com/
 
 https://www.gameart2d.com/free-graveyard-platformer-tileset.html
 
+https://weisinx7.itch.io/fireball-explosion-sprites
+
 
 https://luizmelo.itch.io/monsters-creatures-fantasy/download/eyJpZCI6NTY0Njk1LCJleHBpcmVzIjoxNjY3MTc4MTAyfQ%3d%3d.slYQ0AY8Zk3OaKx%2b4QbPPhqCjh8%3d
 
