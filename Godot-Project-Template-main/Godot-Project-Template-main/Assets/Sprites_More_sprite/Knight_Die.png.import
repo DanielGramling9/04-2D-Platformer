@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Take Hit.png-87ff3b609ffbcbc29dc787894dd83d35.stex"
+path="res://.import/Knight_Die.png-bdba5f765daa73e8279a3c36959b7dde.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Skeleton/Take Hit.png"
-dest_files=[ "res://.import/Take Hit.png-87ff3b609ffbcbc29dc787894dd83d35.stex" ]
+source_file="res://Assets/Sprites_More_sprite/Knight_Die.png"
+dest_files=[ "res://.import/Knight_Die.png-bdba5f765daa73e8279a3c36959b7dde.stex" ]
 
 [params]
 
