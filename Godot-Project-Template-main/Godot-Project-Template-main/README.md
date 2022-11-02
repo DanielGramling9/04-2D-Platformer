@@ -9,6 +9,7 @@ Description: An 2D Platformer following an old victorian Skeleton obessed with P
 Which features you included
 * An main menu using an combintion of orginal assets as well as Fonts found online.
 * Orginal character sprite created using Piskel.
+* Coins styled with east-styled-coins
 
 ## References
 
@@ -26,7 +27,7 @@ https://luizmelo.itch.io/monsters-creatures-fantasy/download/eyJpZCI6NTY0Njk1LCJ
 
 https://www.kenney.nl/assets/pixel-platformer
 
-
+https://salgueiroazul.itch.io/far-east-styled-coins
 
 ## Future Development
 
