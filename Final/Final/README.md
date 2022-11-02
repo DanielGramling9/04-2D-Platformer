@@ -25,7 +25,7 @@ https://weisinx7.itch.io/fireball-explosion-sprites
 
 
 https://luizmelo.itch.io/monsters-creatures-fantasy/download/eyJpZCI6NTY0Njk1LCJleHBpcmVzIjoxNjY3MTc4MTAyfQ%3d%3d.slYQ0AY8Zk3OaKx%2b4QbPPhqCjh8%3d
-
+https://pixabay.com/sound-effects/search/explosion/
 
 https://www.kenney.nl/assets/pixel-platformer
 
